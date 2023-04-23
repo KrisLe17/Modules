@@ -1,6 +1,8 @@
 import uuid
 import hashlib
 
+### NO LONGER IN USE. INCLUDED FOR EXAMPLE ###
+
 class hash_pass:
     def obf_pass(password):
         salt = uuid.uuid4().hex
